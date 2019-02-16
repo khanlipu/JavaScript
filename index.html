@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<meta charset="utf-8">
+	<title>AngularJs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+</head>
+<body>
+   <!--Starting of logo
+	<div class="logo"></div>
+
+	<!--Starting of header-->
+	<div id="header">
+		
+
+	</div>
+
+	<!--Starting of sideber
+	<div class="sideber"></div>
+
+	<!--Starting of cointainer
+	<div class="container"></div>
+
+	<!--Starting of footer
+	<div class="footer"></div> -->
+
+
+
+<script type="text/javascript">
+
+// this is the print 	
+	document.write("My name is Khan Nazrul Islam")
+
+// this is the breck 
+	document.write("</br>"+"</br>");
+
+
+// this is the variable section
+	var ami = 20;
+	var tumi = 40;
+	var dujon = ami+tumi; 
+
+	document.write(dujon);
+	document.write("</br>"+"</br>");
+
+
+// haw to make function in javaScript
+	function nusuki() {
+
+		var regular = "This is the Nusuki regular jubah for Malaysia";
+		var premium = "This is the Nusuki premium jubah for Malaysia";
+		var regularPrice = 100;
+		var premiumPrice = 200;
+
+		document.write(regular);
+		document.write("</br>");
+		document.write(premium);
+		document.write("</br>");
+		document.write("Regular price = "+regularPrice);
+		document.write("</br>");
+		document.write("Premium price = "+premiumPrice);
+		document.write("</br>")
+	}
+	nusuki()
+
+
+// this is the innerHTML
+	var head = "This is the header section"
+
+	document.getElementById("header").innerHTML=head;
+
+
+// this is about of console
+
+	var cons = 200;
+	var consVelu = 100;
+	var outPut = cons+consVelu;
+
+	document.write(outPut);
+	console.time("time");
+	console.log(outPut);
+	console.error(outPut);
+	console.warn(outPut);
+	console.info(outPut);
+	alert(outPut);
+	console.timeEnd("time");
+	document.write("</br>")
+
+// this is the arry
+
+	var arryTest = [1,2,3,4,5];
+	var arry2nd = [12,13,14,15,16];
+
+	arry2nd.shift();
+	//arry2nd.unshift(11)
+
+	var mix = arryTest.concat(arry2nd);
+
+	alert("This is not correct number "+arry2nd[0])
+
+	document.write(mix)
+	
+//function
+	function inform(){
+		alert ("this is alert box !!")
+	}
+
+</script>
+
+<form>
+	<input type="button" name="test" value="Click me" onclick="inform()">
+</form>
+
+</body>
+</html>
